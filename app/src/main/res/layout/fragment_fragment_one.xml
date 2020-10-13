@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_one"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Fragment_one">
+
+
+    <EditText
+        android:id="@+id/et_paypal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:hint="PayPal Account"
+        />
+
+    <EditText
+        android:layout_below="@+id/et_paypal"
+        android:id="@+id/et_points"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:hint="Points"/>
+
+    <TextView
+        android:layout_below="@+id/et_points"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:layout_margin="15dp"
+        android:background="@drawable/btn_background"
+        android:gravity="center"
+        android:text="Request Payment"/>
+
+
+</RelativeLayout>

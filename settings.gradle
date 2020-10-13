@@ -1,0 +1,2 @@
+include ':qboxusandroid'
+include ':app'
