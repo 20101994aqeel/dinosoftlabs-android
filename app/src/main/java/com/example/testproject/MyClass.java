@@ -5,4 +5,8 @@ public class MyClass {
 
     public MyClass() {
     }
+
+    public void InitSdk(){
+
+    }
 }
