@@ -10,7 +10,7 @@ public class SdkInit {
         System.loadLibrary("qboxusandroid");
     }
 
-    Activity context;
+  Activity context;
   public SdkInit (Activity context){
       this.context=context;
   }
